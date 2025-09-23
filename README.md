@@ -1,6 +1,6 @@
 # Legalweb App
 
-![Legalweb Logo](https://via.placeholder.com/150?text=Legalweb) <!-- Replace with actual logo if available, e.g., from page 5 of the report -->
+![Legalweb Logo]([https://via.placeholder.com/150?text=Legalweb](https://github.com/chathuraz/legal_web/blob/6839723fbf3097aa3492f5fa2afe6992524cd5f8/assets/images/legal_web_1.png)) <!-- Replace with actual logo if available, e.g., from page 5 of the report -->
 
 Your trusted legal partner, anytime, anywhere.
 
