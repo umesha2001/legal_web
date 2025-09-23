@@ -1,0 +1,77 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "lawyers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "profileComplete",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rating",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "lawyers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "profileComplete",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "specialization",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rating",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "lawyers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "profileComplete",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "searchKeywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "rating",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "lawyers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "profileComplete",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "specialization",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "searchKeywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "rating",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

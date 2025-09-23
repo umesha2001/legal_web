@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "auth-f3e4d",
+    "staging": "auth-f3e4d"
+  },
+  "targets": {},
+  "etags": {}
+}
