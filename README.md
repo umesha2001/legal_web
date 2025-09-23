@@ -118,7 +118,6 @@ For more details, see Chapter 4 (Implementation) and Chapter 5 (Results and Eval
 ## Future Work
 
 - Add multilingual support (Sinhala, Tamil).
-- Integrate real-time legal news updates and crime trend analysis.
 - Enhance AI chatbot with more training data.
 - Add lawyer rating/reviews and document generation features.
 
