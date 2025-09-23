@@ -1,0 +1,52 @@
+import 'package:flutter/material.dart';
+
+class LoadingScreen extends StatelessWidget {
+  const LoadingScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFF353E55),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              'assets/images/legal_web_1.png',
+              width: 150,
+              height: 150,
+            ),
+            const SizedBox(height: 30),
+            Text(
+              'LEGAL WEB',
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+                color: const Color(0xFFD0A554),
+              ),
+            ),
+            const SizedBox(height: 15),
+            Text(
+              'YOUR TRUSTED LEGAL PARTNER,',
+              style: TextStyle(
+                fontSize: 16,
+                color: const Color(0xFFF6E5E5),
+              ),
+            ),
+            Text(
+              'ANYTIME, ANYWHERE....',
+              style: TextStyle(
+                fontSize: 16,
+                color: const Color(0xFFF6E5E5),
+              ),
+            ),
+            const SizedBox(height: 30),
+            const CircularProgressIndicator(
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xFFD0A554)),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
